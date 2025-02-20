@@ -8,4 +8,4 @@ on:
 
 jobs:
     deploy:
-        runs-on: ubuntu-22.04
+        
