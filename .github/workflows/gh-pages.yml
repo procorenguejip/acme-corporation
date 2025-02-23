@@ -21,7 +21,7 @@ jobs:
                 extended: true
 
             - name: Build
-              run: hugo --minify --baseURL=https://github.com/procorenguejip/acme-corporation/GitHubPages
+              run: hugo --minify --baseURL=https://github.com/procorenguejip/acme-corporation
             
             - name: Deploy
               uses: peaceiris/actions-gh-pages@v3
