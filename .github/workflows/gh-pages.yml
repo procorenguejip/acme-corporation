@@ -8,7 +8,7 @@ on:
   
 jobs: 
   deploy: 
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-18.04
     steps: 
       - uses: actions/checkout@v4
         with: 
@@ -21,7 +21,7 @@ jobs:
           extended: true 
   
       - name: Build 
-        run: hugo --minify --baseURL=https://hugoinaction.github.io/GitHubPages 
+        run: hugo --minify
   
       - name: Deploy 
         uses: peaceiris/actions-gh-pages@v3
