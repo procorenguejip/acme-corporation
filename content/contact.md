@@ -10,3 +10,81 @@ Sit amet mauris commodo quis imperdiet. Mauris in aliquam sem fringilla ut morbi
 Purus faucibus ornare suspendisse sed nisi. Eleifend mi in nulla posuere. Quis risus sed vulputate odio ut enim blandit volutpat. At tempor commodo ullamcorper a lacus. Ut consequat semper viverra nam libero. In eu mi bibendum neque egestas. Donec pretium vulputate sapien nec sagittis. Faucibus vitae aliquet nec ullamcorper sit. Eu nisl nunc mi ipsum faucibus vitae aliquet. Ultrices in iaculis nunc sed augue. At auctor urna nunc id cursus metus aliquam eleifend.
 
 Et magnis dis parturient montes nascetur ridiculus. Ac turpis egestas integer eget. Eget lorem dolor sed viverra ipsum nunc aliquet. Dictum sit amet justo donec enim diam vulputate. Nulla facilisi morbi tempus iaculis. Et ultrices neque ornare aenean euismod elementum. Ultricies integer quis auctor elit sed. Quam viverra orci sagittis eu. Tortor pretium viverra suspendisse potenti nullam ac. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus.
+
+## Tables, task lists, and code blocks
+
+Name | Job
+-----|-----
+Jehu | Web Developer
+Marco| Software Engineer
+Paola| Project Manager
+
+### Alternate tables
+|Name|Job|
+|---|---|
+|Jehu|Web Developer|
+|Marco|Software Engineer|
+|Paola|Project Manager|
+
+### Table alignment
+|Index|Product| Edges|
+|--:|:--|:-:|
+|1.|Circle|0|
+|2.|Line|1|
+|3.|Square|4|
+
+## Acme website task list
+- [x] Get the home page up
+- [ ] Update Privacy Policy and Terms of Use
+- [x] Add the About page
+- [ ] Start the blog
+- [ ] Enable Contact Us page
+
+## Direct Emojis
+Smile please :smile:
+
+I :heart: Hugo
+
+Wink :wink:
+
+A link to [Emojis](#direct-emojis)
+
+## Smart conversation
+This will convert to a dash --
+
+This is followed by ellipses ...
+
+## This is highlighted text{style="background: yellow;"}
+
+## Definition lists
+Alex
+: Hippy Web Developer
+: Technophile
+
+Bob
+: Classic SysAdmin
+: Conservative
+
+Gabby
+: Cool Content Master
+: Cautious
+
+## Code block
+````javascript
+var x=10;
+x++;
+console.log(x);
+````
+
+with highlighting
+````javascript {linenos=true,hl_lines=[2,"4-6"],linenostart=199}
+while (!success) {
+    tryAgain();
+    attempt++;
+    if(Dead) {
+        break;
+    }
+}
+x++;
+console.log(x);
+````
